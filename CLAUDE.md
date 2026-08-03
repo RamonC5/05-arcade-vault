@@ -10,15 +10,6 @@ Arcade Vault (Spanish copy) — a platform to play arcade games online and compe
 
 This project pins `next@16.2.12`, which is newer than most training data. **Before writing any Next.js code, read the relevant guide in `node_modules/next/dist/docs/`** — APIs, conventions, and file structure may differ from what you expect. Heed any deprecation notices found there. (See `AGENTS.md`.)
 
-## Commands
-
-```bash
-npm run dev      # start dev server (Next.js, Turbopack default)
-npm run build    # production build
-npm run start    # run production build
-npm run lint     # eslint (flat config, eslint-config-next core-web-vitals + typescript)
-```
-
 There is no test runner configured in `package.json` yet.
 
 ## Spec-driven workflow
