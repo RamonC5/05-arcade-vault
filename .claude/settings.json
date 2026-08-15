@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx eslint *)",
+      "Bash(npx next *)",
+      "Bash(echo \"started with pid $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3411/games/asteroides/play)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3411/games/rocas/play)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3411/games/asteroides)",
+      "Bash(powershell -NoProfile -Command \"Get-Process -Id 1252 -ErrorAction SilentlyContinue | Select-Object Id, ProcessName\")"
+    ]
+  }
+}
